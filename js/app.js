@@ -80,7 +80,7 @@ add_section.addEventListener('click', function () {
     `;
 
     document.querySelector("main").insertAdjacentHTML("beforeend", tmp_section);
-    document.querySelector("#navbar_list_container").insertAdjacentHTML("beforeend", tmp_section_link);
+    document.querySelector("#add-section").insertAdjacentHTML("beforebegin", tmp_section_link);
     create_sections_offsets();
     set_link_events();
 

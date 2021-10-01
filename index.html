@@ -12,28 +12,20 @@
     <body>
         <!-- HTML Follows BEM naming conventions 
         IDs are only used for sections to connect menu achors to sections -->
-        <header class="page__header">
-            <nav id="fixed-navbar" class="!navbar__menu">
+        <header  id="fixed-navbar" class="page__header">
+            <nav class="!navbar__menu">
                 <!-- Navigation starts as empty UL that will be populated with JS -->
                 <ul id="navbar_list_container" !id="!fixed-navbar !navbar__list">
                     <li class="navigator-link active_link" data-target="#section1">section 1</li>
                     <li class="navigator-link" data-target="#section2">section 2</li>
                     <li class="navigator-link" data-target="#section3">section 3</li>
                     <li class="navigator-link" data-target="#section4">section 4</li>
+                    <li id="add-section" class="navigator-link " >Add Section</li>
                 </ul>
-                <button id="add-section">Add Section</button>
             </nav>
         </header>
 
         <main id="mainContainer">
-
-            <!-- <nav id="fixed-navbar">
-                <ul>
-                    <li class="navigator-link" data-target="section1">section 1</li>
-                    <li class="navigator-link" data-target="section2">section 2</li>
-                    <li class="navigator-link" data-target="section3">section 3</li>
-                </ul>
-            </nav> -->
 
             <header class="main__hero">
             <h1>Landing Page </h1>
